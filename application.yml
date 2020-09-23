@@ -16,7 +16,4 @@ mybatis:
   type-aliases-package: cn.yunhe.java.pojo
 info:
   application-name: 这个是电视商城提供者
-management:
- security:
- #关闭安全验证，否则访问refresh端点时会提示权限不足
- enabled: false
+
