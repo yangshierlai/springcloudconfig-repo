@@ -2,9 +2,9 @@ spring:
   application:
     name: provider
   datasource:
-    url: jdbc:mysql://172.16.8.125:3306/tvmall?useUnicode=utf-8&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://127.0.0.1:3306/tvmall?useUnicode=utf-8&serverTimezone=Asia/Shanghai
     username: root
-    password: 132456
+    password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
 server:
   port: 9003
